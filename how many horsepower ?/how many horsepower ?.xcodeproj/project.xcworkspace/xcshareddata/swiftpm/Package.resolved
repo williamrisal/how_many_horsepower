@@ -1,0 +1,15 @@
+{
+  "originHash" : "17fa2d346a75c38ce5e6b35ece288eb103d392451cb07fe1fdcf1731e7f02e9e",
+  "pins" : [
+    {
+      "identity" : "popup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxgribov/PopUp",
+      "state" : {
+        "revision" : "84353a537969466aef6d86d906c00031b2626e11",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2E424B2CCE6F6900AAF910 /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E424A2CCE6F6900AAF910 /* ClassementView.swift */; };
+		7A2E424E2CCE862700AAF910 /* TargetBip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E424D2CCE862700AAF910 /* TargetBip.swift */; };
+		7A4B0C632C2316A1002CDA58 /* how_many_horsepower__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C622C2316A1002CDA58 /* how_many_horsepower__App.swift */; };
+		7A4B0C652C2316A1002CDA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C642C2316A1002CDA58 /* ContentView.swift */; };
+		7A4B0C672C2316A3002CDA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B0C662C2316A3002CDA58 /* Assets.xcassets */; };
+		7A4B0C6B2C2316A3002CDA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B0C6A2C2316A3002CDA58 /* Preview Assets.xcassets */; };
+		7A4B0C752C2316A3002CDA58 /* how_many_horsepower__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C742C2316A3002CDA58 /* how_many_horsepower__Tests.swift */; };
+		7A4B0C7F2C2316A3002CDA58 /* how_many_horsepower__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C7E2C2316A3002CDA58 /* how_many_horsepower__UITests.swift */; };
+		7A4B0C812C2316A3002CDA58 /* how_many_horsepower__UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C802C2316A3002CDA58 /* how_many_horsepower__UITestsLaunchTests.swift */; };
+		7A4B0C8E2C2316D6002CDA58 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C8D2C2316D6002CDA58 /* LocationManager.swift */; };
+		7A4B0C912C2460DE002CDA58 /* recupdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B0C902C2460DE002CDA58 /* recupdata.txt */; };
+		7A4B0C942C2466CF002CDA58 /* CheckVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C932C2466CF002CDA58 /* CheckVehicle.swift */; };
+		7A4EC2D72CD646E800B017D9 /* countStartSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A4EC2D62CD646E800B017D9 /* countStartSound.mp3 */; };
+		7A5D5CFE2CC83BF5004C0059 /* ShowHorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D5CFD2CC83BF5004C0059 /* ShowHorse.swift */; };
+		7A7281512D08BC7B0068D127 /* WelcomePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7281502D08BC780068D127 /* WelcomePopupView.swift */; };
+		7A7281582D1F614C0068D127 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A7281572D1F614C0068D127 /* Localizable.strings */; };
+		7AA4616C2CC18E1600E4744D /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4616B2CC18E1600E4744D /* CircularProgressBarView.swift */; };
+		7AA4616E2CC18E4300E4744D /* AiguilleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4616D2CC18E4300E4744D /* AiguilleView.swift */; };
+		7AA461722CC4387100E4744D /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA461712CC4387100E4744D /* TopBarView.swift */; };
+		7AA461762CC6BFDF00E4744D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA461752CC6BFDF00E4744D /* TimerView.swift */; };
+		7AC78F8F2CD050C7001DF793 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC78F8E2CD050C1001DF793 /* SettingsView.swift */; };
+		7AE4994D2CD41D7400845BE6 /* CoutDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4994C2CD41D6E00845BE6 /* CoutDownView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4B0C712C2316A3002CDA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4B0C572C2316A1002CDA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4B0C5E2C2316A1002CDA58;
+			remoteInfo = "how many horsepower ?";
+		};
+		7A4B0C7B2C2316A3002CDA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4B0C572C2316A1002CDA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4B0C5E2C2316A1002CDA58;
+			remoteInfo = "how many horsepower ?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A2E424A2CCE6F6900AAF910 /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
+		7A2E424D2CCE862700AAF910 /* TargetBip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBip.swift; sourceTree = "<group>"; };
+		7A4B0C5F2C2316A1002CDA58 /* how many horsepower ?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "how many horsepower ?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4B0C622C2316A1002CDA58 /* how_many_horsepower__App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_many_horsepower__App.swift; sourceTree = "<group>"; };
+		7A4B0C642C2316A1002CDA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A4B0C662C2316A3002CDA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A4B0C682C2316A3002CDA58 /* how_many_horsepower__.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = how_many_horsepower__.entitlements; sourceTree = "<group>"; };
+		7A4B0C6A2C2316A3002CDA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A4B0C702C2316A3002CDA58 /* how many horsepower ?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "how many horsepower ?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4B0C742C2316A3002CDA58 /* how_many_horsepower__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_many_horsepower__Tests.swift; sourceTree = "<group>"; };
+		7A4B0C7A2C2316A3002CDA58 /* how many horsepower ?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "how many horsepower ?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4B0C7E2C2316A3002CDA58 /* how_many_horsepower__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_many_horsepower__UITests.swift; sourceTree = "<group>"; };
+		7A4B0C802C2316A3002CDA58 /* how_many_horsepower__UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_many_horsepower__UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A4B0C8D2C2316D6002CDA58 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7A4B0C902C2460DE002CDA58 /* recupdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recupdata.txt; path = "../../../../Documents/Projet Perso/puppeter 0-100km:h data/recupdata.txt"; sourceTree = "<group>"; };
+		7A4B0C932C2466CF002CDA58 /* CheckVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVehicle.swift; sourceTree = "<group>"; };
+		7A4EC2D62CD646E800B017D9 /* countStartSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countStartSound.mp3; sourceTree = "<group>"; };
+		7A5D5CFD2CC83BF5004C0059 /* ShowHorse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHorse.swift; sourceTree = "<group>"; };
+		7A7281502D08BC780068D127 /* WelcomePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePopupView.swift; sourceTree = "<group>"; };
+		7A7281522D1F5F3C0068D127 /* how-many-horsepower---Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "how-many-horsepower---Info.plist"; sourceTree = SOURCE_ROOT; };
+		7A7281562D1F614C0068D127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A7281592D1F614D0068D127 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A72815A2D1F614E0068D127 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7AA4616B2CC18E1600E4744D /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		7AA4616D2CC18E4300E4744D /* AiguilleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiguilleView.swift; sourceTree = "<group>"; };
+		7AA461712CC4387100E4744D /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		7AA461752CC6BFDF00E4744D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		7AC78F8E2CD050C1001DF793 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7AE4994C2CD41D6E00845BE6 /* CoutDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoutDownView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A4B0C5C2C2316A1002CDA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C6D2C2316A3002CDA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C772C2316A3002CDA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A2E424C2CCE861500AAF910 /* Sonor */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E424D2CCE862700AAF910 /* TargetBip.swift */,
+			);
+			path = Sonor;
+			sourceTree = "<group>";
+		};
+		7A4B0C562C2316A1002CDA58 = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C612C2316A1002CDA58 /* how many horsepower ? */,
+				7A4B0C732C2316A3002CDA58 /* how many horsepower ?Tests */,
+				7A4B0C7D2C2316A3002CDA58 /* how many horsepower ?UITests */,
+				7A4B0C602C2316A1002CDA58 /* Products */,
+				7A7281572D1F614C0068D127 /* Localizable.strings */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4B0C602C2316A1002CDA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C5F2C2316A1002CDA58 /* how many horsepower ?.app */,
+				7A4B0C702C2316A3002CDA58 /* how many horsepower ?Tests.xctest */,
+				7A4B0C7A2C2316A3002CDA58 /* how many horsepower ?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4B0C612C2316A1002CDA58 /* how many horsepower ? */ = {
+			isa = PBXGroup;
+			children = (
+				7A7281522D1F5F3C0068D127 /* how-many-horsepower---Info.plist */,
+				7A4EC2D32CD6469000B017D9 /* Sound */,
+				7AE4994B2CD41D5F00845BE6 /* CountDownView */,
+				7AC78F8D2CD050B5001DF793 /* Settings */,
+				7A2E424C2CCE861500AAF910 /* Sonor */,
+				7A5D5CFC2CC83BD6004C0059 /* PopUp */,
+				7AA461702CC4380300E4744D /* TopBar */,
+				7AA4616A2CC18E0300E4744D /* CompteurView */,
+				7A4B0C922C2466BF002CDA58 /* CheckVehicle */,
+				7A4B0C8F2C2460C3002CDA58 /* data */,
+				7A4B0C622C2316A1002CDA58 /* how_many_horsepower__App.swift */,
+				7A4B0C642C2316A1002CDA58 /* ContentView.swift */,
+				7A4B0C662C2316A3002CDA58 /* Assets.xcassets */,
+				7A4B0C682C2316A3002CDA58 /* how_many_horsepower__.entitlements */,
+				7A4B0C692C2316A3002CDA58 /* Preview Content */,
+				7A4B0C8D2C2316D6002CDA58 /* LocationManager.swift */,
+			);
+			path = "how many horsepower ?";
+			sourceTree = "<group>";
+		};
+		7A4B0C692C2316A3002CDA58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C6A2C2316A3002CDA58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A4B0C732C2316A3002CDA58 /* how many horsepower ?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C742C2316A3002CDA58 /* how_many_horsepower__Tests.swift */,
+			);
+			path = "how many horsepower ?Tests";
+			sourceTree = "<group>";
+		};
+		7A4B0C7D2C2316A3002CDA58 /* how many horsepower ?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C7E2C2316A3002CDA58 /* how_many_horsepower__UITests.swift */,
+				7A4B0C802C2316A3002CDA58 /* how_many_horsepower__UITestsLaunchTests.swift */,
+			);
+			path = "how many horsepower ?UITests";
+			sourceTree = "<group>";
+		};
+		7A4B0C8F2C2460C3002CDA58 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C902C2460DE002CDA58 /* recupdata.txt */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		7A4B0C922C2466BF002CDA58 /* CheckVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B0C932C2466CF002CDA58 /* CheckVehicle.swift */,
+			);
+			path = CheckVehicle;
+			sourceTree = "<group>";
+		};
+		7A4EC2D32CD6469000B017D9 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7A4EC2D62CD646E800B017D9 /* countStartSound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		7A5D5CFC2CC83BD6004C0059 /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				7A7281502D08BC780068D127 /* WelcomePopupView.swift */,
+				7A5D5CFD2CC83BF5004C0059 /* ShowHorse.swift */,
+				7A2E424A2CCE6F6900AAF910 /* ClassementView.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		7AA4616A2CC18E0300E4744D /* CompteurView */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4616B2CC18E1600E4744D /* CircularProgressBarView.swift */,
+				7AA4616D2CC18E4300E4744D /* AiguilleView.swift */,
+				7AA461752CC6BFDF00E4744D /* TimerView.swift */,
+			);
+			path = CompteurView;
+			sourceTree = "<group>";
+		};
+		7AA461702CC4380300E4744D /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				7AA461712CC4387100E4744D /* TopBarView.swift */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		7AC78F8D2CD050B5001DF793 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7AC78F8E2CD050C1001DF793 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7AE4994B2CD41D5F00845BE6 /* CountDownView */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4994C2CD41D6E00845BE6 /* CoutDownView.swift */,
+			);
+			path = CountDownView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A4B0C5E2C2316A1002CDA58 /* how many horsepower ? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4B0C842C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?" */;
+			buildPhases = (
+				7A4B0C5B2C2316A1002CDA58 /* Sources */,
+				7A4B0C5C2C2316A1002CDA58 /* Frameworks */,
+				7A4B0C5D2C2316A1002CDA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "how many horsepower ?";
+			productName = "how many horsepower ?";
+			productReference = 7A4B0C5F2C2316A1002CDA58 /* how many horsepower ?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A4B0C6F2C2316A3002CDA58 /* how many horsepower ?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4B0C872C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?Tests" */;
+			buildPhases = (
+				7A4B0C6C2C2316A3002CDA58 /* Sources */,
+				7A4B0C6D2C2316A3002CDA58 /* Frameworks */,
+				7A4B0C6E2C2316A3002CDA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4B0C722C2316A3002CDA58 /* PBXTargetDependency */,
+			);
+			name = "how many horsepower ?Tests";
+			productName = "how many horsepower ?Tests";
+			productReference = 7A4B0C702C2316A3002CDA58 /* how many horsepower ?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A4B0C792C2316A3002CDA58 /* how many horsepower ?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4B0C8A2C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?UITests" */;
+			buildPhases = (
+				7A4B0C762C2316A3002CDA58 /* Sources */,
+				7A4B0C772C2316A3002CDA58 /* Frameworks */,
+				7A4B0C782C2316A3002CDA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4B0C7C2C2316A3002CDA58 /* PBXTargetDependency */,
+			);
+			name = "how many horsepower ?UITests";
+			productName = "how many horsepower ?UITests";
+			productReference = 7A4B0C7A2C2316A3002CDA58 /* how many horsepower ?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4B0C572C2316A1002CDA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7A4B0C5E2C2316A1002CDA58 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7A4B0C6F2C2316A3002CDA58 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7A4B0C5E2C2316A1002CDA58;
+					};
+					7A4B0C792C2316A3002CDA58 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7A4B0C5E2C2316A1002CDA58;
+					};
+				};
+			};
+			buildConfigurationList = 7A4B0C5A2C2316A1002CDA58 /* Build configuration list for PBXProject "how many horsepower ?" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+			);
+			mainGroup = 7A4B0C562C2316A1002CDA58;
+			packageReferences = (
+				7A1FC6B52CCABCBC0092E916 /* XCRemoteSwiftPackageReference "PopUp" */,
+			);
+			productRefGroup = 7A4B0C602C2316A1002CDA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A4B0C5E2C2316A1002CDA58 /* how many horsepower ? */,
+				7A4B0C6F2C2316A3002CDA58 /* how many horsepower ?Tests */,
+				7A4B0C792C2316A3002CDA58 /* how many horsepower ?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A4B0C5D2C2316A1002CDA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7281582D1F614C0068D127 /* Localizable.strings in Resources */,
+				7A4B0C6B2C2316A3002CDA58 /* Preview Assets.xcassets in Resources */,
+				7A4EC2D72CD646E800B017D9 /* countStartSound.mp3 in Resources */,
+				7A4B0C912C2460DE002CDA58 /* recupdata.txt in Resources */,
+				7A4B0C672C2316A3002CDA58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C6E2C2316A3002CDA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C782C2316A3002CDA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4B0C5B2C2316A1002CDA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7281512D08BC7B0068D127 /* WelcomePopupView.swift in Sources */,
+				7AA4616E2CC18E4300E4744D /* AiguilleView.swift in Sources */,
+				7A4B0C652C2316A1002CDA58 /* ContentView.swift in Sources */,
+				7A5D5CFE2CC83BF5004C0059 /* ShowHorse.swift in Sources */,
+				7A4B0C632C2316A1002CDA58 /* how_many_horsepower__App.swift in Sources */,
+				7A4B0C8E2C2316D6002CDA58 /* LocationManager.swift in Sources */,
+				7A2E424E2CCE862700AAF910 /* TargetBip.swift in Sources */,
+				7AA461722CC4387100E4744D /* TopBarView.swift in Sources */,
+				7A4B0C942C2466CF002CDA58 /* CheckVehicle.swift in Sources */,
+				7A2E424B2CCE6F6900AAF910 /* ClassementView.swift in Sources */,
+				7AC78F8F2CD050C7001DF793 /* SettingsView.swift in Sources */,
+				7AE4994D2CD41D7400845BE6 /* CoutDownView.swift in Sources */,
+				7AA461762CC6BFDF00E4744D /* TimerView.swift in Sources */,
+				7AA4616C2CC18E1600E4744D /* CircularProgressBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C6C2C2316A3002CDA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4B0C752C2316A3002CDA58 /* how_many_horsepower__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4B0C762C2316A3002CDA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4B0C812C2316A3002CDA58 /* how_many_horsepower__UITestsLaunchTests.swift in Sources */,
+				7A4B0C7F2C2316A3002CDA58 /* how_many_horsepower__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A4B0C722C2316A3002CDA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4B0C5E2C2316A1002CDA58 /* how many horsepower ? */;
+			targetProxy = 7A4B0C712C2316A3002CDA58 /* PBXContainerItemProxy */;
+		};
+		7A4B0C7C2C2316A3002CDA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4B0C5E2C2316A1002CDA58 /* how many horsepower ? */;
+			targetProxy = 7A4B0C7B2C2316A3002CDA58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A7281572D1F614C0068D127 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7281562D1F614C0068D127 /* en */,
+				7A7281592D1F614D0068D127 /* fr */,
+				7A72815A2D1F614E0068D127 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A4B0C822C2316A3002CDA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A4B0C832C2316A3002CDA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7A4B0C852C2316A3002CDA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "how many horsepower ?/how_many_horsepower__.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"how many horsepower ?/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "how-many-horsepower---Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure your vehicle's speed.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A4B0C862C2316A3002CDA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "how many horsepower ?/how_many_horsepower__.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"how many horsepower ?/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "how-many-horsepower---Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure your vehicle's speed.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A4B0C882C2316A3002CDA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/how many horsepower ?.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/how many horsepower ?";
+			};
+			name = Debug;
+		};
+		7A4B0C892C2316A3002CDA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/how many horsepower ?.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/how many horsepower ?";
+			};
+			name = Release;
+		};
+		7A4B0C8B2C2316A3002CDA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "how many horsepower ?";
+			};
+			name = Debug;
+		};
+		7A4B0C8C2C2316A3002CDA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "how many horsepower ?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A4B0C5A2C2316A1002CDA58 /* Build configuration list for PBXProject "how many horsepower ?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4B0C822C2316A3002CDA58 /* Debug */,
+				7A4B0C832C2316A3002CDA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4B0C842C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4B0C852C2316A3002CDA58 /* Debug */,
+				7A4B0C862C2316A3002CDA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4B0C872C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4B0C882C2316A3002CDA58 /* Debug */,
+				7A4B0C892C2316A3002CDA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4B0C8A2C2316A3002CDA58 /* Build configuration list for PBXNativeTarget "how many horsepower ?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4B0C8B2C2316A3002CDA58 /* Debug */,
+				7A4B0C8C2C2316A3002CDA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A1FC6B52CCABCBC0092E916 /* XCRemoteSwiftPackageReference "PopUp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxgribov/PopUp";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 7A4B0C572C2316A1002CDA58 /* Project object */;
+}

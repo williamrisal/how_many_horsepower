@@ -1,0 +1,43 @@
+//
+//  Localizable.strings
+//  how many horsepower ?
+//
+//  Created by William Risal on 27/12/2024.
+//
+
+/* Localizable.strings (German) */
+"speed_title" = "🛞 Geschwindigkeit";
+"kmh" = "KM/H";
+"mph" = "MPH";
+"current_gforce" = "⚡️G-Kraft";
+"max_gforce" = "    Max \nG-Kraft⚡️";
+"go_back_home" = "Zurück nach Hause";
+"start_recording" = "Aufnahme starten";
+"stop_recording" = "Aufnahme beenden";
+"welcome_message" = "Willkommen in der App";
+/* Localizable.strings (German) */
+"welcome_title" = "Bereit, Ihre Pferdestärke zu messen?";
+"welcome_description" = "Drücken Sie auf **Start** und führen Sie eine 0-100 km/h-Beschleunigung so schnell wie möglich aus 🚗💨. Wir berechnen die Pferdestärke Ihres Fahrzeugs!";
+"welcome_button" = "OK, Los geht's!";
+/* Localizable.strings (German) */
+"settings_title" = "Einstellungen";
+"settings_section_units" = "Einheiten";
+"settings_section_conversions" = "Konvertierungs-Vorschau";
+"settings_speed_toggle" = "Geschwindigkeit in MPH / KMH";
+"settings_power_toggle" = "Leistung in kW";
+"settings_speed_preview" = "Geschwindigkeit:";
+"settings_power_preview" = "Leistung:";
+"settings_speed_value_kmh" = "100 km/h";
+"settings_speed_value_mph" = "60 mph";
+"settings_power_value_hp" = "300 PS";
+"settings_power_value_kw" = "220 kW";
+
+"welcome_popup_title" = "Bereit, die Leistung Ihres Autos zu messen?";
+"welcome_popup_description" = "Drücken Sie **Start** und beschleunigen Sie so schnell wie möglich von 0 auf 100 km/h 🚗💨. Wir berechnen die Leistung Ihres Fahrzeugs!";
+"welcome_popup_action" = "OK, Los geht's!";
+
+"top_bar_logo" = "Logo";
+"top_bar_title" = "Wie viel PS?";
+
+"classement_title" = "Kraft Rivalen ⚔️";
+"classement_your_power" = "🏆 Deine Leistung: %d Pferdestärken!";

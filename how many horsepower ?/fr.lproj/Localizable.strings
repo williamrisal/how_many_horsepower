@@ -1,0 +1,43 @@
+//
+//  Localizable.strings
+//  how many horsepower ?
+//
+//  Created by William Risal on 27/12/2024.
+//
+
+/* Localizable.strings (French) */
+"speed_title" = "🛞 Vitesse";
+"kmh" = "KM/H";
+"mph" = "MPH";
+"current_gforce" = "⚡️G-Force";
+"max_gforce" = "    Max \nG-Force⚡️";
+"go_back_home" = "Retourner à l'accueil";
+"start_recording" = "Commencer l'enregistrement";
+"stop_recording" = "Arrêter l'enregistrement";
+"welcome_message" = "Bienvenue dans l'application";
+/* Localizable.strings (French) */
+"welcome_title" = "Prêt à mesurer votre puissance ?";
+"welcome_description" = "Appuyez sur **Démarrer** et effectuez un 0-100 km/h le plus rapidement possible 🚗💨. Nous calculerons la puissance de votre véhicule !";
+"welcome_button" = "OK, Allons-y !";
+/* Localizable.strings (French) */
+"settings_title" = "Paramètres";
+"settings_section_units" = "Unités";
+"settings_section_conversions" = "Aperçu des conversions";
+"settings_speed_toggle" = "Vitesse en MPH ou KMh";
+"settings_power_toggle" = "Puissance en kW";
+"settings_speed_preview" = "Vitesse :";
+"settings_power_preview" = "Puissance :";
+"settings_speed_value_kmh" = "100 km/h";
+"settings_speed_value_mph" = "60 mph";
+"settings_power_value_hp" = "300 ch";
+"settings_power_value_kw" = "220 kW";
+
+"welcome_popup_title" = "Prêt à mesurer votre puissance moteur ?";
+"welcome_popup_description" = "Appuyez sur **Commencer** et effectuez un 0-100 km/h le plus rapidement possible 🚗💨. Nous calculerons la puissance de votre véhicule !";
+"welcome_popup_action" = "OK, Allons-y !";
+
+"top_bar_logo" = "Logo";
+"top_bar_title" = "Combien de chevaux ?";
+
+"classement_title" = "Rivaux de puissance ⚔️";
+"classement_your_power" = "🏆 Votre puissance : %d chevaux !";
