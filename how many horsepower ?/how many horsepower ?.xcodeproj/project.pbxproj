@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A2E424B2CCE6F6900AAF910 /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E424A2CCE6F6900AAF910 /* ClassementView.swift */; };
 		7A2E424E2CCE862700AAF910 /* TargetBip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E424D2CCE862700AAF910 /* TargetBip.swift */; };
+		7A3539632D2B3B0D00554CE2 /* Courbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3539622D2B3B0800554CE2 /* Courbe.swift */; };
 		7A4B0C632C2316A1002CDA58 /* how_many_horsepower__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C622C2316A1002CDA58 /* how_many_horsepower__App.swift */; };
 		7A4B0C652C2316A1002CDA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B0C642C2316A1002CDA58 /* ContentView.swift */; };
 		7A4B0C672C2316A3002CDA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B0C662C2316A3002CDA58 /* Assets.xcassets */; };
@@ -28,6 +29,10 @@
 		7AA461722CC4387100E4744D /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA461712CC4387100E4744D /* TopBarView.swift */; };
 		7AA461762CC6BFDF00E4744D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA461752CC6BFDF00E4744D /* TimerView.swift */; };
 		7AC78F8F2CD050C7001DF793 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC78F8E2CD050C1001DF793 /* SettingsView.swift */; };
+		7AD5DF642D2220E7007E4C7C /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5DF632D2220E5007E4C7C /* ReviewManager.swift */; };
+		7AD5DF672D285A55007E4C7C /* PremiumPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5DF662D285A54007E4C7C /* PremiumPopupView.swift */; };
+		7AD5DF692D285CC9007E4C7C /* AdvantagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5DF682D285CC8007E4C7C /* AdvantagesView.swift */; };
+		7AD5DF6B2D285F77007E4C7C /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5DF6A2D285F77007E4C7C /* PurchaseManager.swift */; };
 		7AE4994D2CD41D7400845BE6 /* CoutDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4994C2CD41D6E00845BE6 /* CoutDownView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +56,7 @@
 /* Begin PBXFileReference section */
 		7A2E424A2CCE6F6900AAF910 /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 		7A2E424D2CCE862700AAF910 /* TargetBip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBip.swift; sourceTree = "<group>"; };
+		7A3539622D2B3B0800554CE2 /* Courbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courbe.swift; sourceTree = "<group>"; };
 		7A4B0C5F2C2316A1002CDA58 /* how many horsepower ?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "how many horsepower ?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4B0C622C2316A1002CDA58 /* how_many_horsepower__App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_many_horsepower__App.swift; sourceTree = "<group>"; };
 		7A4B0C642C2316A1002CDA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +83,10 @@
 		7AA461712CC4387100E4744D /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		7AA461752CC6BFDF00E4744D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		7AC78F8E2CD050C1001DF793 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7AD5DF632D2220E5007E4C7C /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		7AD5DF662D285A54007E4C7C /* PremiumPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumPopupView.swift; sourceTree = "<group>"; };
+		7AD5DF682D285CC8007E4C7C /* AdvantagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvantagesView.swift; sourceTree = "<group>"; };
+		7AD5DF6A2D285F77007E4C7C /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		7AE4994C2CD41D6E00845BE6 /* CoutDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoutDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +147,7 @@
 		7A4B0C612C2316A1002CDA58 /* how many horsepower ? */ = {
 			isa = PBXGroup;
 			children = (
+				7AD5DF652D285A4C007E4C7C /* PremiumView */,
 				7A7281522D1F5F3C0068D127 /* how-many-horsepower---Info.plist */,
 				7A4EC2D32CD6469000B017D9 /* Sound */,
 				7AE4994B2CD41D5F00845BE6 /* CountDownView */,
@@ -153,6 +164,7 @@
 				7A4B0C682C2316A3002CDA58 /* how_many_horsepower__.entitlements */,
 				7A4B0C692C2316A3002CDA58 /* Preview Content */,
 				7A4B0C8D2C2316D6002CDA58 /* LocationManager.swift */,
+				7AD5DF632D2220E5007E4C7C /* ReviewManager.swift */,
 			);
 			path = "how many horsepower ?";
 			sourceTree = "<group>";
@@ -240,6 +252,17 @@
 				7AC78F8E2CD050C1001DF793 /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		7AD5DF652D285A4C007E4C7C /* PremiumView */ = {
+			isa = PBXGroup;
+			children = (
+				7A3539622D2B3B0800554CE2 /* Courbe.swift */,
+				7AD5DF6A2D285F77007E4C7C /* PurchaseManager.swift */,
+				7AD5DF682D285CC8007E4C7C /* AdvantagesView.swift */,
+				7AD5DF662D285A54007E4C7C /* PremiumPopupView.swift */,
+			);
+			path = PremiumView;
 			sourceTree = "<group>";
 		};
 		7AE4994B2CD41D5F00845BE6 /* CountDownView */ = {
@@ -390,18 +413,23 @@
 			files = (
 				7A7281512D08BC7B0068D127 /* WelcomePopupView.swift in Sources */,
 				7AA4616E2CC18E4300E4744D /* AiguilleView.swift in Sources */,
+				7AD5DF692D285CC9007E4C7C /* AdvantagesView.swift in Sources */,
 				7A4B0C652C2316A1002CDA58 /* ContentView.swift in Sources */,
 				7A5D5CFE2CC83BF5004C0059 /* ShowHorse.swift in Sources */,
 				7A4B0C632C2316A1002CDA58 /* how_many_horsepower__App.swift in Sources */,
 				7A4B0C8E2C2316D6002CDA58 /* LocationManager.swift in Sources */,
+				7AD5DF642D2220E7007E4C7C /* ReviewManager.swift in Sources */,
 				7A2E424E2CCE862700AAF910 /* TargetBip.swift in Sources */,
 				7AA461722CC4387100E4744D /* TopBarView.swift in Sources */,
+				7AD5DF6B2D285F77007E4C7C /* PurchaseManager.swift in Sources */,
 				7A4B0C942C2466CF002CDA58 /* CheckVehicle.swift in Sources */,
 				7A2E424B2CCE6F6900AAF910 /* ClassementView.swift in Sources */,
 				7AC78F8F2CD050C7001DF793 /* SettingsView.swift in Sources */,
 				7AE4994D2CD41D7400845BE6 /* CoutDownView.swift in Sources */,
 				7AA461762CC6BFDF00E4744D /* TimerView.swift in Sources */,
 				7AA4616C2CC18E1600E4744D /* CircularProgressBarView.swift in Sources */,
+				7AD5DF672D285A55007E4C7C /* PremiumPopupView.swift in Sources */,
+				7A3539632D2B3B0D00554CE2 /* Courbe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +610,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "how-many-horsepower---Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "How many horsepower ?";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure your vehicle's speed.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -597,7 +627,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -624,6 +654,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "how-many-horsepower---Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "How many horsepower ?";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure your vehicle's speed.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -639,7 +671,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "william.how-many-horsepower--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

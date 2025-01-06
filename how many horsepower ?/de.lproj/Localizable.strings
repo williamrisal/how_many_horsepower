@@ -17,7 +17,7 @@
 "welcome_message" = "Willkommen in der App";
 /* Localizable.strings (German) */
 "welcome_title" = "Bereit, Ihre Pferdestärke zu messen?";
-"welcome_description" = "Drücken Sie auf **Start** und führen Sie eine 0-100 km/h-Beschleunigung so schnell wie möglich aus 🚗💨. Wir berechnen die Pferdestärke Ihres Fahrzeugs!";
+"welcome_description" = "Drücken Sie auf **Start** und führen Sie eine 0-120 km/h-Beschleunigung so schnell wie möglich aus 🚗💨. Wir berechnen die Pferdestärke Ihres Fahrzeugs!";
 "welcome_button" = "OK, Los geht's!";
 /* Localizable.strings (German) */
 "settings_title" = "Einstellungen";

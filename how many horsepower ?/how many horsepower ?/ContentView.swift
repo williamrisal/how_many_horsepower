@@ -27,8 +27,6 @@ struct ContentView: View {
     @State private var navigateToSettings = false
     @State private var showWelcomePopup: Bool = true // New state to control popup display
 
-
-
     let maxSpeed: Double = 10.0
 
     var body: some View {
@@ -46,7 +44,7 @@ struct ContentView: View {
                         ZStack {
                             CircularProgressBarView(progress: $locationManager.speedInKmH)
                                 .frame(width: 250, height: 250)
-                            
+
                             TimerView(elapsedTime: $elapsedTime)
                                 .padding(.top, 200)
                         }
@@ -80,7 +78,7 @@ struct ContentView: View {
                         }
                         .padding(.top,-50)
                     }
-                    
+
                     Spacer()
 
                     HStack {
@@ -94,15 +92,18 @@ struct ContentView: View {
                         GForceView(gForce: locationManager.gForce, showHorseView: showHorseView)
                             .padding(.leading, 50)
                     }
-                    
+
                     Spacer()
-                    
+
                     HStack {
                         if !isRecording {
                             Button(action: {
                                 showHorseView ? resetAllValues() : startRecording()
                             }) {
-                                Label(showHorseView ? "Go Back to Home" : "Start Recording", systemImage: "play.fill")
+                                Label(
+                                    NSLocalizedString(showHorseView ? "go_back_home" : "start_recording", comment: ""),
+                                    systemImage: "play.fill"
+                                )
                                     .font(.system(size: 16, weight: .bold))
                                     .padding()
                                     .frame(width: 327, height: 48)
@@ -112,7 +113,7 @@ struct ContentView: View {
                             }
                         } else {
                             Button(action: stopRecording) {
-                                Label("Stop Recording", systemImage: "stop.fill")
+                                Label(NSLocalizedString("stop_recording", comment: ""), systemImage: "stop.fill")
                                     .font(.system(size: 16, weight: .bold))
                                     .padding()
                                     .frame(width: 327, height: 48)
@@ -159,16 +160,12 @@ struct ContentView: View {
 
     private func toggleHorseView() {
         showHorseView.toggle()
-        if showHorseView {
-            locationManager.stopUpdatingLocation()
-        } else {
-            locationManager.startUpdatingLocation()
-        }
+
     }
 
     private func startRecording() {
         CoutDownStart.toggle()
-        
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 4.5) {
             if locationManager.authorizationStatus == .authorizedWhenInUse || locationManager.authorizationStatus == .authorizedAlways {
                 isRecording = true
@@ -191,6 +188,9 @@ struct ContentView: View {
         moyenneChevaux = 0
         showHorseView = false
         Cars = [""]
+        ReviewManager.shared.openAppStoreForReview(appID: "6739007870") // Remplacez par l'ID de votre app
+        ReviewManager.shared.forceRequestReview()
+
     }
 
     private func stopRecording() {
@@ -213,19 +213,18 @@ struct ContentView: View {
 struct SpeedView: View {
     var useMPH: Bool
     var speed: Double
-    
+
     var body: some View {
         VStack {
-            Text("🛞Speed")
+            Text(NSLocalizedString("speed_title", comment: "Speed display"))
                 .font(.system(size: 20, weight: .semibold))
                 .foregroundColor(Color(hex: "FFFF06"))
                 .padding(.bottom, 1)
-            
+
             HStack {
-                Text("\(useMPH ? Int(speed) :  Int(Double(speed) / 1.60934) )")
-                    .font(.system(size: 20, weight: .semibold))
+                Text("\(useMPH ? Int(speed) :  Int(Double(speed) / 1.60934) )")                    .font(.system(size: 20, weight: .semibold))
                     .foregroundColor(.white)
-                Text("\(useMPH ?  "KM/H": "MPH" )")
+                Text(NSLocalizedString(useMPH ? "kmh" : "mph", comment: "Speed unit"))
                     .font(.system(size: 20, weight: .semibold))
                     .foregroundColor(.white)
             }
@@ -236,14 +235,14 @@ struct SpeedView: View {
 struct GForceView: View {
     var gForce: Double
     var showHorseView: Bool
-    
+
     var body: some View {
         VStack {
-            Text(showHorseView ? "    Max \nG-Force⚡️" : "⚡️G-Force")
+            Text(NSLocalizedString(showHorseView ? "max_gforce" : "current_gforce", comment: "G-Force display"))
                 .font(.system(size: 20, weight: .semibold))
                 .foregroundColor(Color(hex: "61E9FF"))
                 .padding(.bottom, 1)
-            
+
             Text(String(format: "%.2f", gForce))
                 .font(.system(size: 20, weight: .semibold))
                 .foregroundColor(.white)

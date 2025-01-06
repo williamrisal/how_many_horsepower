@@ -17,7 +17,7 @@
 "welcome_message" = "Bienvenue dans l'application";
 /* Localizable.strings (French) */
 "welcome_title" = "Prêt à mesurer votre puissance ?";
-"welcome_description" = "Appuyez sur **Démarrer** et effectuez un 0-100 km/h le plus rapidement possible 🚗💨. Nous calculerons la puissance de votre véhicule !";
+"welcome_description" = "Appuyez sur **Démarrer** et effectuez un 0-120 km/h le plus rapidement possible 🚗💨. Nous calculerons la puissance de votre véhicule !";
 "welcome_button" = "OK, Allons-y !";
 /* Localizable.strings (French) */
 "settings_title" = "Paramètres";

@@ -25,7 +25,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         super.init()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        locationManager.distanceFilter = kCLDistanceFilterNone
+        locationManager.distanceFilter = 1.0 // Réduisez pour des mises à jour plus fréquentes
     }
 
     func requestAuthorization() {
@@ -106,50 +106,52 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         // Calcul du temps nécessaire pour atteindre la vitesse cible
         let time = (targetSpeedMs - currentSpeedMs) / acceleration
         
-        // Si le temps est négatif (ce qui ne devrait pas arriver avec une accélération positive), on retourne nil
         return time > 0 ? time : nil
     }
 
-
-    // Nouvelle fonction pour calculer l'accélération à partir de deux positions GPS
     private func calculateAcceleration(currentLocation: CLLocation) {
         guard let previousLocation = previousLocation, let previousTimestamp = previousTimestamp else {
-            // Nous avons besoin de deux positions pour calculer l'accélération
             self.previousLocation = currentLocation
             self.previousTimestamp = Date()
             return
         }
         
-        _ = currentLocation.distance(from: previousLocation) // Distance en mètres
         let timeInterval = currentLocation.timestamp.timeIntervalSince(previousTimestamp) // Temps en secondes
         
         if timeInterval > 0 {
             let speedChange = (currentLocation.speed - previousLocation.speed) // Change in speed (m/s)
             let acceleration = speedChange / timeInterval // Calcul de l'accélération (m/s^2)
             
-            DispatchQueue.main.async {
-                self.calculatedAcceleration = acceleration
+            // Limiter l'impact des sauts de données aberrantes
+            if abs(acceleration) < 10.0 {
+                DispatchQueue.main.async {
+                    self.calculatedAcceleration = acceleration
+                }
             }
         }
         
-        // Mettre à jour la dernière position et le timestamp
         self.previousLocation = currentLocation
         self.previousTimestamp = currentLocation.timestamp
     }
 
-    // Fonction pour vérifier et ajuster la vitesse si nécessaire
+    private func interpolateSpeed(targetSpeed: Double) -> Date? {
+        guard let previousLocation = previousLocation, let previousTimestamp = previousTimestamp else {
+            return nil
+        }
+
+        let speedChange = (targetSpeed - previousLocation.speed) / (calculatedAcceleration)
+        let timeToTarget = previousTimestamp.addingTimeInterval(speedChange) // Estimation du temps
+        return timeToTarget > previousTimestamp ? timeToTarget : nil
+    }
+
     private func checkAndSetSpeed() {
-        // Vérifier que la vitesse est entre 90 et 100 km/h et que l'accélération est non nulle
         guard speedInKmH > 90 && speedInKmH < 100, calculatedAcceleration > 0 else { return }
 
-        // Calcul du temps nécessaire pour atteindre 100 km/h
-        guard let timeToReach100 = timeToReachTargetSpeed(currentSpeedKmh: Double(speedInKmH), targetSpeedKmh: 100, acceleration: calculatedAcceleration) else {
-            return // Si le temps ne peut pas être calculé (par exemple, accélération nulle ou négative)
-        }
-        
-        // Si le temps est inférieur à 1 seconde, on met la vitesse à 100 km/h
-        if timeToReach100 < 1 {
+        if let estimatedTimeToReach100 = timeToReachTargetSpeed(currentSpeedKmh: Double(speedInKmH), targetSpeedKmh: 100, acceleration: calculatedAcceleration),
+           estimatedTimeToReach100 < 1.0 {
             speedInKmH = 100
+        } else if let interpolationTime = interpolateSpeed(targetSpeed: 100.0) {
+            print("100 km/h atteint à : \(interpolationTime)")
         }
     }
 }

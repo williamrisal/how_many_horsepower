@@ -19,8 +19,7 @@ class CheckVehicle {
         }
         
         let somme = CarsChevaux.reduce(0, +)
-        var moyenne = Int(somme) / CarsChevaux.count
-        moyenne  = moyenne + 15
+        let moyenne = Int(somme) / CarsChevaux.count
         print("Moyenne des chevaux : \(moyenne)")
         print(CarsChevaux.count)
         deleteCarsList()
@@ -33,7 +32,8 @@ class CheckVehicle {
             print("Erreur : fichier non trouvé.")
             return [""]
         }
-        
+        let adjustedTime = elapsedTime * 0.85
+
         do {
             let data = try String(contentsOfFile: path, encoding: .utf8)
             let lines = data.components(separatedBy: .newlines)
@@ -42,7 +42,7 @@ class CheckVehicle {
                 let components = line.components(separatedBy: " -> ")
                 if components.count == 2 {
                     let carInfo = components[1]
-                    let roundedDouble = (elapsedTime * 10).rounded() / 10
+                    let roundedDouble = (adjustedTime * 10).rounded() / 10
                     if components[0].contains(" " + String(+roundedDouble)) {
                         print("test ::", roundedDouble, "vehicule :", carInfo)
                         Cars.append(carInfo)

@@ -17,7 +17,7 @@
 "welcome_message" = "Welcome to the App";
 /* Localizable.strings (English) */
 "welcome_title" = "Ready to measure your power?";
-"welcome_description" = "Press **Start** and perform a 0-100 km/h run as fast as possible 🚗💨. We’ll calculate your vehicle’s horsepower!";
+"welcome_description" = "Press **Start** and perform a 0-74 MPH run as fast as possible 🚗💨. We’ll calculate your vehicle’s horsepower!";
 "welcome_button" = "OK, Let’s Go!";
 /* Localizable.strings (English) */
 "settings_title" = "Settings";
